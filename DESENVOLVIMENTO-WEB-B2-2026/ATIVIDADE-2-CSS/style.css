@@ -1,0 +1,204 @@
+
+/* Professora, vou deixar comentários conforme vou lendo as descrições do w3school, 
+   desculpe se exceder o "limite" que você disse em aula, mas gosto de fazer vários 
+   comentários que me ajudam a lembrar funções durante o trabalho. Então vou comentar 
+   no que eu achar pertinente. Desculpe o incômodo, entenderei caso desconte na nota.
+   Muito obrigado por proporcionar tal atividade. */
+
+body {
+    background-color: #1a1a2e;  
+    color: #e0e0e0;             
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Google Fonts */
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilização dos texto*/
+h1 {
+    color: #3dee63;             
+    text-align: center;       
+    font-size: 3rem;           
+    text-transform: uppercase; /* texto em maiúsculo */
+    letter-spacing: 3px;       
+}
+
+h2 {
+    color: #3dee63;            
+    text-align: left;              
+    font-size: 2rem;
+    border-left: 5px solid #3dee63; 
+    padding-left: 15px;           
+    margin-top: 30px;             
+}
+
+h3 {
+    color: #f9a826;             
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+p {
+    line-height: 1.6; 
+    font-size: 1.2rem;       
+    text-align: justify;        
+    margin-bottom: 15px;
+}
+
+
+/* Seletores */
+.destaque {
+    background-color: #e94560;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px; /* Propriedade de borda arredondada */
+    font-weight: bold;
+}
+
+.destaque-vermelho {
+    color: #e94560;
+    font-weight: bold;
+}
+
+.destaque-fundo {
+    background-color: #e945608d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px; /* Propriedade de borda arredondada */
+    font-weight: bold;
+}
+
+
+#rodape {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+header, footer {
+    background-color: #0f0f1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+ul {
+    background-color: #16213e;
+    padding: 20px;             
+    border-radius: 10px;       
+    list-style-type: square;   
+    margin: 20px 0;            
+}
+
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+ 
+ol {
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+    list-style-type: decimal; /* Estilo: numeracao decimal */
+    margin: 20px 0;
+}
+
+
+ol li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/* estilização do aside */
+aside {
+    background-color: #0f3460;
+    padding: 20px;             
+    margin: 20px 0;           
+    border: 2px solid #e94560; 
+    border-radius: 15px; /* Propriedade de borda arredondada */
+    width: 95%;
+}
+
+aside h4 {
+    color: #e94560;
+    font-size: 2rem;
+    text-align: center;
+}
+
+aside img {
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #3dee63;
+    border-radius: 10px;
+}
+
+
+/* Configuração dos links */
+a {
+    color: #faab34;          
+    background-color: transparent; /* Sem fundo */
+    padding: 0; /* Sem espaçamento */
+    border-radius: 0;        
+    transition: all 0.3s ease; /* Animação determinando o tempo de transição */
+}
+
+
+/* Quando o mouse passa em cima */
+a:hover {
+    color: white; /* Muda para branco  */
+    background-color: #e94560; /* Aparece fundo rosa  */
+    padding: 5px 10px; /* Aumenta espaçamento  */
+    border-radius: 5px;              
+}
+
+/* Efeito hover para links dentro do section "Saiba Mais"*/
+section a:hover {
+    background-color: #f9a826;/* Fundo laranja */
+    color: white;                
+    padding: 5px 10px;         
+    border-radius: 5px;          
+}
+
+nav a {
+    color: #e94560;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+nav a:hover { /*Seleciona e estiliza um link ao passar o mouse sobre ele */
+    color: white;
+    background-color: #e94560;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figcaption {
+    font-size: 1rem;
+    color: #aaa;
+    margin-top: 5px;
+}
+
+/* Imagem principal */
+figure img {
+    border: 4px solid #e94560;
+    border-radius: 10px;
+}
+
